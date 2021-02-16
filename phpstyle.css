@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: aqua;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+#container {
+	text-align: center;
+	margin: auto;
+}
+
+#CC{
+    display: block;
+}
+
+
+#Second{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#navbar {
+    
+	font-weight: bold;
+	border: 5px outset red;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: brown;
+	padding: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#navbar a:link,
+#navbar a:visited {
+	color: white;
+	padding: 10px;
+	padding-right: 150px;
+	padding-left: 150px;
+	text-decoration: none;
+}
+
+#navbar a:hover,
+#navbar a:active {
+	background-color: yellow;
+	color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-weight: normal;
+    
+}
+
+table tr:nth-child(even) {
+	background-color: lavender;
+	color: black;
+}
+
+table tr:nth-child(odd) {
+	background-color: lightcyan;
+	color: black;
+}
+
+th {
+	color: white;
+	background-color: brown;
+	font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+tr,td {
+	font-size: 15px;
+	text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+button{
+    color: white;
+    background-color: red;
+    font-weight: 600;
+}
+
+footer{
+    text-align:justify;
+}
